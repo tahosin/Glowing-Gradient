@@ -1,10 +1,10 @@
+
 .
 {
     margin: o;
     padding: 0;
     box-sizing: border-box;
 }
-
 body
 {
     display: flex;
@@ -24,19 +24,18 @@ body
     animation: animate 2s linear infinite;
 }
 
-@kryframes animate
+@keyframes animaate
 {
     0%
     {
-        transform: rotate(0deg)
-        filter: hue-rotate(0deg)
+        transform: rotate(0deg);
+        filter: hue-rotate(0deg);
     }
     100%
     {
-        transform: rotate(360deg)
-        filter: hue-rotate(360deg)
+        transform: rotate(360deg);
+        filter: hue-rotate(360deg);
     }
-
 }
 
 .loader:before
